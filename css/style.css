@@ -1,0 +1,74 @@
+nav{
+    background-color: #5EC275;
+    border: 1px solid black;
+    padding: auto;
+    font-weight: bold;
+    vertical-align:auto;
+}
+
+footer{
+    background-color: #5EC275;
+    font-weight: bold;
+    border: 1px solid black;
+    clear: both;
+    position: relative;
+    height: 200px;
+    
+}
+
+section{
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+    padding: 10px;
+    float: center;
+    overflow: hidden;
+}
+
+.izq{
+    float: left;    
+    width: 49%;
+    height: 100%;
+    clear: both;
+    margin-left: 0;
+  }
+
+.der{
+    float: right;
+    width: 49%;
+    height: 100%;
+  }
+
+#ventas{
+    column-count: 2;
+}
+
+h2{
+    text-align: center;
+}
+
+
+img.media{
+    width:50px;
+    padding: 10px;
+    vertical-align: middle;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    color:black;
+    font-weight: bold;
+}
+
+#social{
+    text-align: justify;
+}
+
+#locacion{
+    text-align: center;
+}
+
+img.servicios{
+    width:50%;
+    display:block;
+    margin:auto;;
+}

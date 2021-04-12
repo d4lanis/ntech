@@ -1,9 +1,41 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 40px;
+  }
+
 nav{
     background-color: #5EC275;
-    border: 1px solid black;
+    /*border: 1px solid black;*/
     padding: auto;
     font-weight: bold;
     vertical-align:auto;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+nav li{
+    float: left;
+    border-right: 1px solid #5EC275;
+}
+
+nav li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+  background-color: #28a846;
 }
 
 footer{
@@ -11,9 +43,10 @@ footer{
     font-weight: bold;
     border: 1px solid black;
     clear: both;
-    position: relative;
-    height: 200px;
-    
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
 }
 
 section{
@@ -93,3 +126,25 @@ div.desc {
     padding: 15px;
     text-align: center;
 }
+
+.review-stars ul {
+    display: inline-block;
+    list-style: none;
+  }
+  
+  .review-stars ul li {
+    float: left;
+    margin-right: 5px;
+  }
+  
+  .review-stars ul li i {
+    color: #E4B248;
+    font-size: 12px;
+  }
+  /*color: #E4B248;*/
+  .review-stars ul li i.inactive {
+    color: #c6c6c6;
+  }
+  .star:after {
+    content: "\2605";
+  }

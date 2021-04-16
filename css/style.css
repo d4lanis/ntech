@@ -148,3 +148,17 @@ div.desc {
   .star:after {
     content: "\2605";
   }
+
+#google-reviews{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .card{
+    width: 280px;
+    height:280px;
+    border: solid gray 1px;
+    text-align: center;
+    border-radius: 5px;
+    display: inline-block;
+  }

@@ -189,7 +189,7 @@
             } else {
               var name = reviews[i].author_name + "</span><span class='review-sep'>, </span>";
             };
-            html = html+"<div class='review-item'><div class='review-meta'><span class='review-author'>"+name+"<span class='review-date'>"+date+"</span></div>"+stars+"<p class='review-text'>"+reviews[i].text+"</p></div>"
+            html = html+ "<div class='card'>"+"<div class='review-item'><div class='review-meta'><span class='review-author'>"+name+"<span class='review-date'>"+date+"</span></div>"+stars+"<p class='review-text'>"+reviews[i].text+"</p></div>" + "</div>"
           };
           $element.append(html);
         }

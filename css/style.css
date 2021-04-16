@@ -9,7 +9,6 @@ html {
 
 nav{
     background-color: #5EC275;
-    /*border: 1px solid black;*/
     padding: auto;
     font-weight: bold;
     vertical-align:auto;
@@ -50,8 +49,6 @@ footer{
 }
 
 section{
-    border-top: 1px dotted black;
-    border-bottom: 1px dotted black;
     padding: 10px;
     float: center;
     overflow: hidden;
@@ -139,7 +136,7 @@ div.desc {
   
   .review-stars ul li i {
     color: #E4B248;
-    font-size: 12px;
+    font-size: 24px;
   }
   /*color: #E4B248;*/
   .review-stars ul li i.inactive {
@@ -149,7 +146,7 @@ div.desc {
     content: "\2605";
   }
 
-#google-reviews{
+  #google-reviews{
     display: flex;
     justify-content: space-evenly;
   }

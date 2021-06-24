@@ -40,7 +40,6 @@ li a:hover {
 footer{
     background-color: #5EC275;
     font-weight: bold;
-    border: 1px solid black;
     clear: both;
     position: absolute;
     bottom: 0;
@@ -108,6 +107,7 @@ div.img {
     border: 1px solid #ccc;
     float: left;
     width: 250px;
+    height: 320px;
 }
 
 div.img:hover {
@@ -136,7 +136,7 @@ div.desc {
   
   .review-stars ul li i {
     color: #E4B248;
-    font-size: 24px;
+    font-size: 35px;
   }
   /*color: #E4B248;*/
   .review-stars ul li i.inactive {
@@ -146,26 +146,27 @@ div.desc {
     content: "\2605";
   }
 
+  .review-item{
+    padding: 10px;
+    font-size: large;
+    text-align: center;
+  }
+
+  .review-text{
+    padding: 10px;
+    text-align: justify;
+  }
+
   #google-reviews{
     display: flex;
     justify-content: space-evenly;
   }
 
   .card{
-    width: 280px;
-    height:280px;
+    width: 265px;
+    height:265px;
     border: solid gray 1px;
     text-align: center;
     border-radius: 5px;
     display: inline-block;
-  }
-
-  #about{
-    font-size: x-large;
-    column-count: 2;
-  }
-
-  .listas
-  {
-    font-size: large;
   }

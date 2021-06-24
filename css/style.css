@@ -159,3 +159,13 @@ div.desc {
     border-radius: 5px;
     display: inline-block;
   }
+
+  #about{
+    font-size: x-large;
+    column-count: 2;
+  }
+
+  .listas
+  {
+    font-size: large;
+  }

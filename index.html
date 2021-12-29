@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">N-TECH Soluciones Digitales</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toogle Navigation">
@@ -40,67 +40,105 @@
     </header>
     <main>
         <div class="container">
-            <div class="row d-flex justify-content-center">
-                <div class="col-md-12 pt-4 d-flex justify-content-center">
-                    <h2 id="titulo-inicio">reseñas de nuestros clientes</h2>
-                </div>
-                <div class="d-flex justify-content-center">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <div class="row justify-content-center">
-                                <img src="/img/user.png" class="profile-img img-thumbnail" alt="">
+            <section class="col-sm-12 col-md-12" id="inicio">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 pt-4 d-flex justify-content-center">
+                        <h1 id="titulo-inicio">opinion de nuestros clientes</h1>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="google-rate">
+                            <img src="/img/google-logo.svg" style="height: 100%;" alt="">
+                        </div>
+                        <div class="google-rate">
+                            <p class="h1">4.9</p>
+                        </div>
+                        <div class="google-rate">
+                            <p class="h2">N-TECH Soluciones Digitales</p>
+                            <div>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star-half" aria-hidden="true"></i>
                             </div>
-                            <h5 class="card-title">Fco. Xavier Rodriguez T.</h5>
-                            <h6 class="card-subtitle mb-2">
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center col-sm-12">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <img src="/img/user.svg" class="profile-img img-thumbnail" alt="">
+                                </div>
+                                <h5 class="card-title">Fco. Xavier Rodriguez T.</h5>
+                                <h6 class="card-subtitle mb-2">
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                </h6>
+                                <p class="card-text">
+                                    Excelente servicio. Encontré buena atención, formalidad y servicio eficiente. Lo recomiendo.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <img src="/img/user.svg" class="profile-img img-thumbnail" alt="">
+                                </div>
+                                <h5 class="card-title">Rogelio Perez</h5>
+                                <h6 class="card-subtitle mb-2">
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                </h6>
+                                <p class="card-text">
+                                    Muy buen servicio, no tardan con los pedidos y dan muy buena atencion.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <img src="/img/user.svg" class="profile-img img-thumbnail alt="">
+                                </div>
+                              <h5 class="card-title">Eduardo Mata</h5>
+                              <h6 class="card-subtitle mb-2">
                                 <i class="rate fa fa-star" aria-hidden="true"></i>
                                 <i class="rate fa fa-star" aria-hidden="true"></i>
                                 <i class="rate fa fa-star" aria-hidden="true"></i>
                                 <i class="rate fa fa-star" aria-hidden="true"></i>
                                 <i class="rate fa fa-star" aria-hidden="true"></i>
                             </h6>
-                            <p class="card-text">
-                                Excelente servicio. Encontré buena atención, formalidad y servicio eficiente. Lo recomiendo.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <div class="row justify-content-center">
-                                <img src="/img/user.png" class="profile-img img-thumbnail alt="">
+                              <p class="card-text">
+                                  Increíble atención al cliente, el personal es muy atento y eficaz en cuanto al trabajo se refiere. El mejor lugar para la tecnología
+                              </p>
                             </div>
-                          <h5 class="card-title">Eduardo Mata</h5>
-                          <h6 class="card-subtitle mb-2">
-                            <i class="rate fa fa-star" aria-hidden="true"></i>
-                            <i class="rate fa fa-star" aria-hidden="true"></i>
-                            <i class="rate fa fa-star" aria-hidden="true"></i>
-                            <i class="rate fa fa-star" aria-hidden="true"></i>
-                            <i class="rate fa fa-star" aria-hidden="true"></i>
-                        </h6>
-                          <p class="card-text">
-                              Increíble atención al cliente, el personal es muy atento y eficaz en cuanto al trabajo se refiere. El mejor lugar para la tecnología
-                          </p>
                         </div>
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <div class="row justify-content-center">
-                                <img src="/img/user.png" class="profile-img img-thumbnail" alt="">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <div class="row justify-content-center">
+                                    <img src="/img/user.svg" class="profile-img img-thumbnail" alt="">
+                                </div>
+                              <h5 class="card-title">Ricardo Rueda Garcia</h5>
+                              <h6 class="card-subtitle mb-2">
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                              </h6>
+                              <p class="card-text">
+                                Excelente servicio muy amables y respuesta rapida
+                              </p>
                             </div>
-                          <h5 class="card-title">Ricardo Rueda Garcia</h5>
-                          <h6 class="card-subtitle mb-2">
-                                <i class="rate fa fa-star" aria-hidden="true"></i>
-                                <i class="rate fa fa-star" aria-hidden="true"></i>
-                                <i class="rate fa fa-star" aria-hidden="true"></i>
-                                <i class="rate fa fa-star" aria-hidden="true"></i>
-                                <i class="rate fa fa-star" aria-hidden="true"></i>
-                          </h6>
-                          <p class="card-text">
-                            Excelente servicio muy amables y respuesta rapida
-                          </p>
-                        </div>
+                        </div> 
                     </div> 
-                </div> 
-            </div>          
+                </div>          
+            </section>
         </div>
     </main>
     <footer class="bg-dark text-white">

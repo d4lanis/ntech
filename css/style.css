@@ -1,5 +1,16 @@
+main{
+  padding:3%;
+}
+
 #titulo-inicio{
   text-transform: uppercase;
+}
+
+.google-rate{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1.5%;
+  vertical-align: middle;
 }
 
 .rate{
@@ -12,11 +23,14 @@
   width: 30%;
 }
 
-main{
-  padding-bottom: 10px;
-}
-
 .card
 {
   border-radius:5%;
+  margin: 1%;
+
+}
+
+.container{
+  max-width: 100%;
+  width: 100%;
 }

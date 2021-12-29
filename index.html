@@ -13,7 +13,7 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#">N-TECH Soluciones Digitales</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toogle Navigation">
@@ -39,46 +39,69 @@
         </nav>
     </header>
     <main>
-        <section class="home-testimonial" id="inicio">
-            <div class="container">
-                <div class="row d-flex justify-content-center testimonial-pos">
-                    <div class="col-md-12 pt-4 d-flex justify-content-center">
-                        <h2>Reseñas de nuestros clientes</h2>
-                    </div>
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <div class="col-md-12 pt-4 d-flex justify-content-center">
+                    <h2 id="titulo-inicio">reseñas de nuestros clientes</h2>
                 </div>
-                <section class="home-testimonial-bottom">
-                    <div class="container testimonial-inner">
-                        <div class="row d-flex justify-content-center">
-                            <div class="col-md-4 style-3">
-                                <div class="tour-item ">
-                                    <div class="tour-desc bg-white">
-                                        <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="/img/user.png" alt=""></div>
-                                        <div class="link-name d-flex justify-content-center">Fco. Xavier Rodríguez T.</div>
-                                        <div class="tour-text color-grey-3 text-center">“Excelente servicio. Encontré buena atención, formalidad y servicio eficiente. Lo recomiendo.”</div>
-                                    </div>
-                                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <img src="/img/user.png" class="profile-img img-thumbnail" alt="">
                             </div>
-                            <div class="col-md-4 style-3">
-                                <div class="tour-item ">
-                                    <div class="tour-desc bg-white">
-                                        <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="/img/user.png" alt=""></div>
-                                        <div class="link-name d-flex justify-content-center">Eduardo Mata</div>
-                                        <div class="tour-text color-grey-3 text-center">“Increíble atención al cliente, el personal es muy atento y eficaz en cuanto al trabajo se refiere. El mejor lugar para la tecnología!”</div>   
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-4 style-3">
-                                <div class="tour-item ">
-                                    <div class="tour-desc bg-white">
-                                        <div class="d-flex justify-content-center pt-2 pb-2"><img class="tm-people" src="/img/user.png" alt=""></div>
-                                        <div class="link-name d-flex justify-content-center">Rogelio Perez</div>
-                                        <div class="tour-text color-grey-3 text-center">“Muy buen servicio, no tardan con los pedidos y dan muy buena atencion. ”</div>
-                                    </div>
-                                </div>
-                            </div>
+                            <h5 class="card-title">Fco. Xavier Rodriguez T.</h5>
+                            <h6 class="card-subtitle mb-2">
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                            </h6>
+                            <p class="card-text">
+                                Excelente servicio. Encontré buena atención, formalidad y servicio eficiente. Lo recomiendo.
+                            </p>
                         </div>
-                </section>
-        </section>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <img src="/img/user.png" class="profile-img img-thumbnail alt="">
+                            </div>
+                          <h5 class="card-title">Eduardo Mata</h5>
+                          <h6 class="card-subtitle mb-2">
+                            <i class="rate fa fa-star" aria-hidden="true"></i>
+                            <i class="rate fa fa-star" aria-hidden="true"></i>
+                            <i class="rate fa fa-star" aria-hidden="true"></i>
+                            <i class="rate fa fa-star" aria-hidden="true"></i>
+                            <i class="rate fa fa-star" aria-hidden="true"></i>
+                        </h6>
+                          <p class="card-text">
+                              Increíble atención al cliente, el personal es muy atento y eficaz en cuanto al trabajo se refiere. El mejor lugar para la tecnología
+                          </p>
+                        </div>
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <div class="card-body">
+                            <div class="row justify-content-center">
+                                <img src="/img/user.png" class="profile-img img-thumbnail" alt="">
+                            </div>
+                          <h5 class="card-title">Ricardo Rueda Garcia</h5>
+                          <h6 class="card-subtitle mb-2">
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                          </h6>
+                          <p class="card-text">
+                            Excelente servicio muy amables y respuesta rapida
+                          </p>
+                        </div>
+                    </div> 
+                </div> 
+            </div>          
+        </div>
     </main>
     <footer class="bg-dark text-white">
         <!-- Grid container -->
@@ -174,7 +197,7 @@
                     document.write("© " + update + " Copyright:");
                     
                 </script>
-                <a class="text-white text-decoration-none" href="#">DARP Solutions</a>
+                <a class="text-white text-decoration-none" href="#">N-TECH Soluciones Digitales</a>
             </div>
         </div>
         <!-- Copyright -->

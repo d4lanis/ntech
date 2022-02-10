@@ -1,3 +1,6 @@
+*{
+  
+}
 main{
   padding:3%;
 }
@@ -23,7 +26,7 @@ main{
   width: 30%;
 }
 
-.card
+.review
 {
   border-radius:5%;
   margin: 1%;
@@ -33,4 +36,8 @@ main{
 .container{
   max-width: 100%;
   width: 100%;
+}
+
+section{
+  margin: 15px;
 }

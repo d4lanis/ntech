@@ -2,54 +2,322 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="img/logo ntech.png">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <title>N-TECH Soluciones Digitales</title>
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="scripts/google-places.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAqzgMJCAU-AqnqRQUc_hDDu6eSwF9Fg6Q"></script>
-
-    <script>
-        jQuery(document).ready(function() {
-            $("#google-reviews").googlePlaces({
-                placeId: 'ChIJA3wgHSRziIYRU_i22vsrN_g',
-                render: ['reviews'],
-                min_rating: 5,
-                max_rows: 0
-            });
-        });
-    </script>
-
-    
+    <meta name="description" content="Servicios de reparacion y mantenimiento de computadoras y laptops en saltillo">
+    <link rel="canonical" href="https://www.ntechsolucionesdigitales.tk">
+    <link rel="stylesheet" href="/bootstrap-5/css/bootstrap.min.css">
+    <script src="/bootstrap-5/js/bootstrap.min.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/fontawesome-free-6.0.0/css/fontawesome.min.css">
+    <script src="/fontawesome-free-6.0.0/js/all.min.js"></script>
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Soporte Tecnico - Saltillo - N-TECH Soluciones Digitales</title>
+    <link rel="shortcut icon" href="/img/logo_ntech.png" type="image/x-icon">
 </head>
-
-<body>
+<body class="container-fluid">
     <header>
-        <nav>
-           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="acercade.html">Acerca de</a></li>
-           </ul>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">N-TECH Soluciones Digitales</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toogle Navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id=navbarSupportedContent>
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#inicio">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#servicios">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#nosotros">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
-
     <main>
-        <section>
-            <h2>Personas que ya confian en N-TECH Soluciones Digitales</h2>
-            <br>
-            <div id="google-reviews"></div>
-        </section>
+        <section class="w-100 p-3">
+            <div class="col-sm-12 col-md-12" id="inicio">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 pt-4 d-flex justify-content-center">
+                        <div class="h1 titulo-inicio">opinion de nuestros clientes</div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="google-rate">
+                            <img src="/img/google-logo.svg" style="height: 100%;" alt="profile image">
+                        </div>
+                        <div class="google-rate">
+                            <p class="h1">4.9</p>
+                        </div>
+                        <div class="google-rate">
+                            <p class="h2">N-TECH Soluciones Digitales</p>
+                            <div>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star" aria-hidden="true"></i>
+                                <i class="rate fa fa-star-half" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                            <div class="review card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <div class="row justify-content-center">
+                                        <img src="/img/user.svg" class="profile-img img-thumbnail" alt="profile image">
+                                    </div>
+                                    <h5 class="card-title">Fco. Xavier Rodriguez T.</h5>
+                                    <div class="card-subtitle mb-2">
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="card-text">
+                                        Excelente servicio. Encontré buena atención, formalidad y servicio eficiente. Lo recomiendo.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="review card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <div class="row justify-content-center">
+                                        <img src="/img/user.svg" class="profile-img img-thumbnail" alt="profile image">
+                                    </div>
+                                    <h5 class="card-title">Rogelio Perez</h5>
+                                    <div class="card-subtitle mb-2">
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    </div>
+                                    <p class="card-text">
+                                        Muy buen servicio, no tardan con los pedidos y dan muy buena atencion.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="review card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <div class="row justify-content-center">
+                                        <img src="/img/user.svg" class="profile-img img-thumbnail" alt="profile-user">
+                                    </div>
+                                  <h5 class="card-title">Eduardo Mata</h5>
+                                  <div class="card-subtitle mb-2">
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                    <i class="rate fa fa-star" aria-hidden="true"></i>
+                                </div>
+                                  <p class="card-text">
+                                      Increíble atención al cliente, el personal es muy atento y eficaz en cuanto al trabajo se refiere. El mejor lugar para la tecnología
+                                  </p>
+                                </div>
+                            </div>
+                            <div class="review card" style="width: 18rem;">
+                                <div class="card-body">
+                                    <div class="row justify-content-center">
+                                        <img src="/img/user.svg" class="profile-img img-thumbnail" alt="profile image">
+                                    </div>
+                                  <h5 class="card-title">Ricardo Rueda Garcia</h5>
+                                  <div class="card-subtitle mb-2">
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                        <i class="rate fa fa-star" aria-hidden="true"></i>
+                                  </div>
+                                  <p class="card-text">
+                                    Excelente servicio muy amables y respuesta rapida
+                                  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>         
+            </section>
+            <section>
+            <div id="servicios" class="col-sm-12 col-md-12">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 pt-4 d-flex justify-content-center">
+                        <div class="h1 titulo-inicio">nuestros servicios</div>
+                    </div>
+                </div>
+               <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+                   <div class="col">
+                       <div class="card h-100 mb-4 rounded-3 shadow-sm">
+                           <div class="card-header py-3">
+                               <h4 class="my-0 fw-normal">Basico</h4>
+                           </div>
+                           <div class="card-body">
+                               <h1 class="card-title pricing-card-title">$150</h1>
+                               <ul class="list-unstyled mt-3 mb-4">
+                                   <li>Instalacion de Windows</li>
+                                   <li>Instalacion de antivirus</li>
+                                   <li>Instalacion de drivers</li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="card h-100 mb-4 rounded-3 shadow-sm">
+                           <div class="card-header py-3">
+                               <h4 class="my-0 fw-normal">Profesional</h4>
+                           </div>
+                           <div class="card-body">
+                               <h1 class="card-title pricing-card-title">$350</h1>
+                               <ul class="list-unstyled mt-3 mb-4">
+                                   <li>Instalacion de Windows</li>
+                                   <li>Instalacion de antivirus</li>
+                                   <li>Instalacion de drivers</li>
+                                   <li>Software de Ofimatica</li>
+                                   <li>Respaldo de hasta 50GB</li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="col">
+                       <div class="card h-100 mb-4 rounded-3 shadow-sm">
+                           <div class="card-header py-3">
+                               <h4 class="my-0 fw-normal">Premium</h4>
+                           </div>
+                           <div class="card-body">
+                               <h1 class="card-title pricing-card-title">$500</h1>
+                               <ul class="list-unstyled mt-3 mb-4">
+                                <li>Instalacion de Windows</li>
+                                <li>Instalacion de antivirus</li>
+                                <li>Instalacion de drivers</li>
+                                <li>Software de Ofimatica</li>
+                                <li>Respaldo de hasta 50GB</li>
+                                <li>Limpieza interna de compomentes</li>
+                               </ul>
+                           </div>
+                       </div>
+                   </div>
+               </div>
+               </div>
+            </section>
+            <section id="nosotros" class="col-sm-12 col-md-12">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-sm-12 col-md-8 col-lg-8 pt-4 d-flex justify-content-center">
+                        <h2 class="h2 uppercase">¿quienes somos?</h2>
+                    </div>
+                    <div class="col-sm-12 col-md-8 col-lg-8 pt-4 d-flex justify-content-center">
+                        <p class="h3 uppercase">
+                            somos una empresa ubicada en saltillo, coahuila, consolidados en 2016. especializados en soporte tecnico de equipo de computo,
+                            equipo movil, instalacion y configuracion de equipos y venta de articulos de electronica.
+                        </p>
+                    </div>
+                </div>
+            </section>
     </main>
-    <footer>
-        Derechos Reservados N-Tech Soluciones Digitales &#xae; 2021
-        <a href="#">Politica de Privacidad</a>
-        <a href="#">Terminos y Condiciones</a>
-    </footer>
-    
+    <footer class="bg-dark text-white">
+        <!-- Grid container -->
+        <div class="container p-4">
+            <!-- Section: Links -->
+            <section class="">
+            <!--Grid row-->
+                <div class="row">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Redes Sociales</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle" style="width:40px;" href="#!" role="button">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <span>Facebook</span>
+                            </li>
+                            <li>
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle" style="width:40px;" href="#!" role="button">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <span>Instagram</span>
+                            </li>
+                            <li>
+                                <a class="btn btn-outline-light btn-floating m-1 rounded-circle" style="width:40px;" href="#!" role="button">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <span>LinkedIn</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contacto</h5>
+
+                        <ul class="list-unstyled mb-0">
+                            <li>
+                            <a href="#!" class="text-white text-decoration-none">
+                                <i class="fa fa-phone"></i>
+                                <span>844-264-47-73</span>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white text-decoration-none">
+                                <i class="fas fa-envelope"></i>
+                                <span>ntech.soluciondigital@gmail.com</span>
+                            </a>
+                            </li>
+                            <li>
+                            <a href="#!" class="text-white text-decoration-none">
+                                <i class="fas fa-map-marker-alt"></i>
+                                <span>Saltillo, Coahuila. México.</span>
+                            </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Visitanos!</h5>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.6129142073924!2d-100.99228378551112!3d25.417764628955105!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868872b7a7022783%3A0xcd3c2792ec825dc0!2sCalle%20Ignacio%20la%20Llave%20236%2C%20Zona%20Centro%2C%2025000%20Saltillo%2C%20Coah.!5e0!3m2!1ses!2smx!4v1623195510304!5m2!1ses!2smx" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    </div>
+                    <!--Grid column-->
+                </div>
+            <!--Grid row-->
+            </section>
+            <!-- Section: Links -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="row text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <a class="text-white text-decoration-none" href="#">Politica de Privacidad</a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <a class="text-white text-decoration-none" href="#">Terminos y Condiciones</a>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                <script>
+
+                    copyright=new Date();
+                    
+                    update=copyright.getFullYear();
+                    
+                    document.write("© " + update + " Copyright:");
+                    
+                </script>
+                <a class="text-white text-decoration-none" href="#">N-TECH Soluciones Digitales</a>
+            </div>
+        </div>
+        <!-- Copyright -->
+    </footer> 
 </body>
 </html>

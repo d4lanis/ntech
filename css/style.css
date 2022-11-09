@@ -1,172 +1,49 @@
-html {
-    min-height: 100%;
-    position: relative;
-  }
-  body {
-    margin: 0;
-    margin-bottom: 40px;
-  }
-
-nav{
-    background-color: #5EC275;
-    padding: auto;
-    font-weight: bold;
-    vertical-align:auto;
+html , body{
+  height:100%;
 }
 
-nav ul{
-    list-style-type: none;
-    overflow: hidden;
-    margin: 0;
-    padding: 0;
+main{
+  padding:3%;
 }
 
-nav li{
-    float: left;
-    border-right: 1px solid #5EC275;
+.titulo-inicio{
+  text-transform: uppercase;
 }
 
-nav li a{
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+.uppercase {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-li a:hover {
-  background-color: #28a846;
+.google-rate{
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-bottom: 1.5%;
+  vertical-align: middle;
 }
 
-footer{
-    background-color: #5EC275;
-    font-weight: bold;
-    clear: both;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
+.rate{
+  color: #FF9529;
+}
+
+.profile-img{
+  border: none;
+  border-radius: 50%;
+  width: 30%;
+}
+
+.review
+{
+  border-radius:5%;
+  margin: 1%;
+
+}
+
+.container{
+  height: 100vh;
+  overflow: auto;
 }
 
 section{
-    padding: 10px;
-    float: center;
-    overflow: hidden;
+  margin: 15px;
 }
-
-.izq{
-    float: left;    
-    width: 49%;
-    height: 100%;
-    clear: both;
-    margin-left: 0;
-  }
-
-.der{
-    float: right;
-    width: 49%;
-    height: 100%;
-  }
-
-#ventas{
-    column-count: 2;
-}
-
-h2{
-    text-align: center;
-}
-
-
-img.media{
-    width:50px;
-    padding: 10px;
-    vertical-align: middle;
-}
-
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color:black;
-    font-weight: bold;
-}
-
-#social{
-    text-align: justify;
-}
-
-#locacion{
-    text-align: center;
-}
-
-img.servicios{
-    width:50%;
-    display:block;
-    margin:auto;;
-}
-
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 250px;
-    height: 320px;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-    height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
-.review-stars ul {
-    display: inline-block;
-    list-style: none;
-  }
-  
-  .review-stars ul li {
-    float: left;
-    margin-right: 5px;
-  }
-  
-  .review-stars ul li i {
-    color: #E4B248;
-    font-size: 35px;
-  }
-  /*color: #E4B248;*/
-  .review-stars ul li i.inactive {
-    color: #c6c6c6;
-  }
-  .star:after {
-    content: "\2605";
-  }
-
-  .review-item{
-    padding: 10px;
-    font-size: large;
-    text-align: center;
-  }
-
-  .review-text{
-    padding: 10px;
-    text-align: justify;
-  }
-
-  #google-reviews{
-    display: flex;
-    justify-content: space-evenly;
-  }
-
-  .card{
-    width: 265px;
-    height:265px;
-    border: solid gray 1px;
-    text-align: center;
-    border-radius: 5px;
-    display: inline-block;
-  }

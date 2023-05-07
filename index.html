@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,34 +8,27 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>N-TECH Soluciones Digitales</title>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="scripts/google-places.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=places&key=AIzaSyAqzgMJCAU-AqnqRQUc_hDDu6eSwF9Fg6Q"></script>
-
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FNBL6R17LM"></script>
     <script>
-        jQuery(document).ready(function() {
-            $("#google-reviews").googlePlaces({
-                placeId: 'ChIJA3wgHSRziIYRU_i22vsrN_g',
-                render: ['reviews'],
-                min_rating: 5,
-                max_rows: 0
-            });
-        });
-    </script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-    
+        gtag('config', 'G-FNBL6R17LM');
+    </script>
 </head>
 
 <body>
     <header>
         <nav>
-           <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="productos.html">Productos</a></li>
-            <li><a href="servicios.html">Servicios</a></li>
-            <li><a href="contacto.html">Contacto</a></li>
-            <li><a href="acercade.html">Acerca de</a></li>
-           </ul>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acercade.html">Acerca de</a></li>
+            </ul>
         </nav>
     </header>
 
@@ -50,6 +44,7 @@
         <a href="#">Politica de Privacidad</a>
         <a href="#">Terminos y Condiciones</a>
     </footer>
-    
+
 </body>
+
 </html>
